@@ -1,5 +1,5 @@
 #!/usr/bin/python
-"CS244 Spring 2021 Assignment 1: Bufferbloat on Mininet"
+"CS244 Spring 2022 Assignment 1: Bufferbloat on Mininet"
 
 from mininet.topo import Topo
 from mininet.node import CPULimitedHost
@@ -173,7 +173,7 @@ def bufferbloat():
     # CLI(net)
 
     # TODO: measure the time it takes to complete webpage transfer
-    # from h1 to h2 (say) 3 times.  Hint: check what the following
+    # from h1 to h2 (say) 3 times every 5 seconds. Hint: check what the following
     # command does: curl -o /dev/null -s -w %{time_total} google.com
     # Now use the curl command to fetch webpage from the webserver you
     # spawned on host h1 (not from google!)
